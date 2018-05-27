@@ -4,11 +4,11 @@
     </body>
 <script>
     let screen = document.getElementById('game')
-    screen.style.backgroundColor = 'skyblue'
+    screen.style.backgroundColor = 'green'
     let pen = screen.getContext('2d')
-    let box = {x: 50, y: 50, w:25, h:25, 
+    let box = {x: 50, y: 50, w:50, h:50, 
                 col:'red',
-                speed: 2, dir: 'r'
+                speed: 1, dir: 'r'
             }
     function drawRect(pen, obj) {
         pen.fillStyle = obj.col
